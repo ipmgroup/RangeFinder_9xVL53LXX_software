@@ -1,0 +1,49 @@
+{
+    "name": "VL53L0X", 
+    "version": "1.0.2", 
+    "keywords": [
+        "sensors"
+    ], 
+    "description": "VL53L0X distance sensor library", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "authors": [
+        {
+            "email": "inbox@pololu.com", 
+            "url": null, 
+            "maintainer": true, 
+            "name": "Pololu"
+        }
+    ], 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/pololu/vl53l0x-arduino"
+    }, 
+    "homepage": null, 
+    "export": {
+        "include": null, 
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ]
+    }, 
+    "id": 854
+}
