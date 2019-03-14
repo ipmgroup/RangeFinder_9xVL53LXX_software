@@ -13,6 +13,7 @@ The following instructions are for testing with [ArduPilot](https://github.com/A
 4. Restart ArduPilot with the option `-D` (if you configured `SERIAL2` in step 2, otherwise adjust according to table below) and point it to the serial port that your MAVLink board is connected to. For example: `sudo ./arducopter -A udp:192.168.0.100:14550 -D /dev/ttyACM0`
 
 Select options and serial ports in steps 2 and 3 according to this table:
+
 Serial | Option
 -------|-------
 SERIAL0|-A
