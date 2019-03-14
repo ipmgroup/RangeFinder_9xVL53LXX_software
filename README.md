@@ -25,4 +25,4 @@ SERIAL5|-F
 SERIAL6|-G
 
 # Known issues
-In our testing taking this approach instead of using a direct connection of the sensors via I2C resulted in significant delays between an object appearing in front of the sensors and ArduPilot recognizing that input.
+In our testing taking this approach instead of using a direct connection of the sensors via I2C resulted in significant delays between an object appearing in front of the sensors and ArduPilot recognizing that input. The ArduPilot itself was also unresponsive.
