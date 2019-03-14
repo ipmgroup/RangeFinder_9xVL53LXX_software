@@ -10,7 +10,7 @@ The following instructions are for testing with [ArduPilot](https://github.com/A
    - `PRX_TYPE 2`
    - `RNGFND1_TYPE 10`
    - `RNGFND1_ORIENT 25`
-4. Restart ArduPilot with the option `-D` (if you configured `SERIAL2` in step 2, otherwise adjust according to table below) and point it to the serial port that your MAVLink board is connected to. For example: `sudo ./arducopter -A udp:192.168.0.100:14550 -D /dev/ttyACM0`
+4. Restart ArduPilot with the option `-D` (if you configured `SERIAL2` in step 2, otherwise adjust according to table below) and point it to the serial port that your SparkFun SAMD21 Mini Breakout is connected to. For example: `sudo ./arducopter -A udp:192.168.0.100:14550 -D /dev/ttyACM0`
 
 Select options and serial ports in steps 2 and 3 according to this table:
 
