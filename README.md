@@ -1,4 +1,4 @@
-This code for Arduino allows the use of the [9xVL53LXX](https://github.com/ipmgroup/RangeFinder_9xVL53LXX_hardware) sensor array via MAVLink.
+This code for Arduino allows the use of the [9xVL53LXX](https://github.com/ipmgroup/RangeFinder_9xVL53LXX_hardware) sensor array via MAVLink. Build in Platformio.
 
 # Usage
 The following instructions are for testing with [ArduPilot](https://github.com/ArduPilot/ardupilot)
